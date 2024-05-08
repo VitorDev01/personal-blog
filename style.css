@@ -14,7 +14,7 @@
 
   :root {
      
-    --second-color: #fd8f44;
+    --second-color: #aac148;
     --text-color: #172317;
     --bg-color: #fff;
   }
@@ -102,7 +102,7 @@
   }
   
   .login:hover {
-    background: hsl(24, 98%, 58%);
+    background: #aac148;
     transition: 0.3s;
   }
   
