@@ -1,163 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Blog Vitor Oliveira</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="icon.png" type="image/x-icon">
 </head>
 <body>
-    <div id="topo">
     <header>
-        <!--LOGO-->
-    <div class="nav conteiner">
-    
-    <a href="" class="logo">Blog<span> Vitor Oliveira</span></a>
-     
-    <a href="https://vitordev01.github.io/formulario-contato-gmail/" class="login"><i class='bx bxs-book' style="font-size: 23px;"></i></a>
-
-    </div>
+        <div class="container">
+            <a href="#" class="logo">Blog<span>Vitor Oliveira</span></a>
+            <a href="https://vitordev01.github.io/formulario-contato-gmail/" class="login"><i class='bx bxs-book'></i></a>
+        </div>
     </header>
-       <!--HOME-->
-       <section class="home" id="home">
-          <div class="home-text conteiner">      
-            <h2 class="home-title"></h2>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-text">
+                <h2 class="home-title"></h2>
+            </div>
         </div>
-       </section>
+    </section>
         
+    <div class="post-filter">
+        <div class="container">
+            <span class="filter-item active-filter" data-filter="all">Todos</span>
+            <span class="filter-item" data-filter="desing">Dicas TI</span>
+            <span class="filter-item" data-filter="tech">Redes</span>
+            <span class="filter-item" data-filter="mobile">Geral</span>
+        </div>
     </div>
-       <!--POST FILTER-->
-       <div class="post-filter conteiner">
-           <span class="filter-item active-filter" data-filter="all">Todos</span>
-           <span class="filter-item " data-filter="desing">Dicas TI</span>
-           <span class="filter-item " data-filter="tech">Redes</span>
-           <span class="filter-item " data-filter="mobile">Geral</span>
-       </div>
-      <!--POSTs-->
-      
-      <section class="post conteiner">
 
-     <!--apks modificados-->
+    <section class="post container">
+        <!-- Conteúdo dos posts aqui -->
+    </section>
 
-     <div class="post-box tech">
-        <img src="apks.jpg" alt="" class="post-img">
-        <h2 class="category">o barato sai caro</h2>
-        <a href="page-post6.html" class="post-title">
-            Aplicativos Modificados E Seus Riscos
-        </a>
-        <span class="post-date">08 mai 2024</span>
-        <p class="post-description">Saiba os riscos e se vale apena instalar aplicativos no celular de fontes e sites desconhecidos</p>
-   
-    <!--PROFILE-->
-
-     <div class="profile">
-        
-         <span class="profile-name">Como os hackers obtem acesso a sua conta google por aplicativos modificados...</span>
-     </div>
-     </div>
-
-     <!--protocolo ftp-->
-
-     <div class="post-box desing">
-        <img src="ftp.jpg" alt="" class="post-img">
-        <h2 class="category">Sem cabo usb e agora?</h2>
-        <a href="page-post5.html" class="post-title">
-            Transferência De Dados Com FTP
-        </a>
-        <span class="post-date">24 abr 2024</span>
-        <p class="post-description">Como transferir arquivios importantes de um dispositivo para o outro na mesma rede wi-fi...</p>
-   
-    <!--PROFILE-->
-
-     <div class="profile">
-        
-         <span class="profile-name">Esse método é util com arquivos de até 500mg como fotos, vídeos, pdfs etc...</span>
-     </div>
-     </div>
-
-      <!--angra historia-->
-     
-      <div class="post-box mobile">
-          <img src="angra.jpg" alt="" class="post-img">
-          <h2 class="category">História E Cultura</h2>
-          <a href="page-post4.html" class="post-title">
-            Angra Dos Reis Colonização E Catolicismo 
-          </a>
-         <span class="post-date">16 abr 2024 - 5min</span>
-         <p class="post-description">História do descobrimento e colonização de Angra Dos Reis  Quem eram seus nativos antes da chegada dos portugueses...
-        </p>
-  
-      <!--PROFILE-->
-    
-        <div class="profile">
-         <span class="profile-name">Fontes de estudos oficial do site (IBGE) Instituto Brasileiro de Geografia e Estatística.</span>
-         </div>
-      </div>
-      
-     
-     
-      <div class="post-box tech">
-           <img src="img3.jpg" alt="" class="post-img">
-           <h2 class="category"></h2>
-           <a href="https://vitordev01.github.io/formulario-contato-gmail/" class="post-title">
-               Plataforma Cyber Segurança
-           </a>
-           <span class="post-date">05 mai 2024 - 1min</span>
-           <p class="post-description">Esta é uma única página criada com um conjunto de sites úteis para estudar redes de computadores e cyber segurança.</p>
-           <p class="post-description"> ⚠️ Necessário conntato para obter acesso.</p>
-    
-       
-        <div class="profile">
-            <span class="profile-name">Obs: esta em desenvolvimento e recebe atualizções toda semana. Se deseja contribuir com essa pagina entre em contato diretamente no direct vitordev01.</span>
+    <footer>
+        <div class="container">
+            <p>&#169; Vitor Oliveira 2024</p>
         </div>
-        </div>
+    </footer>
 
-     <!--sobre meus conhecimentos-->
-     
-       <div class="post-box tech">
-        <img src="img4.jpg" alt="" class="post-img">
-        <h2 class="category">Entre zeros e uns</h2>
-        <a href="page-post2.html" class="post-title">
-            Porque Escolhi TI
-        </a>
-        <span class="post-date">02 abril 2023 - 5min</span>
-        <p class="post-description">Tecnologia Da Informação E Internet Das Coisas</p>
-   
-    <!--PROFILE-->
-
-     <div class="profile">
-         <span class="profile-name">meu primeiro contato com tecnologia...</span>
-     </div>
-     </div>
-
-     <!--Dica de ti phishing-->
-
-     <div class="post-box desing">
-        <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/phishing.jpg?w=1024&h=674&crop=1" alt="" class="post-img">
-        <h2 class="category">Boca No Anzol</h2>
-        <a href="page-post3.html" class="post-title">
-            Phishing - Pescaria De Dados
-        </a>
-        <span class="post-date">10 dez 2023</span>
-        <p class="post-description">Porque muitos estão caindo nesse golpe e como evitar sites falsos e ter seus dados nas mãos erradas...</p>
-   
-    <!--PROFILE-->
-
-     <div class="profile">
-        
-         <span class="profile-name">Engenharia Social + Front-End</span>
-     </div>
-     </div>
-       </section>
-
-    <!--FOOTER-->
-    <div class="footer conteiner">
-        <p>&#169; Vitor Oliveira 2024 
-</p>
-    </div>
-    <!--jquery link-->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="script.js"></script>
