@@ -327,6 +327,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%; /* Cobrir toda a largura da página */
+    position: fixed; /* Fixar o rodapé na parte inferior da tela */
+    bottom: 0; /* Alinhar o rodapé na parte inferior */
+    left: 0; /* Alinhar o rodapé à esquerda */
 }
 
 .footer p {
